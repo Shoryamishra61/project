@@ -9,14 +9,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-cyan-400 to-purple-600 rounded-lg flex items-center justify-center">
-                <Brain className="w-6 h-6 text-white" />
-              </div>
-              <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent">
-                AI.Portfolio
-              </span>
-            </div>
+            {/* Logo and AI.Portfolio text removed */}
             <p className="text-gray-400 mb-4 max-w-md">
               Crafting intelligent solutions through machine learning and artificial intelligence. 
               Building the future, one algorithm at a time.
@@ -82,7 +75,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 AI.Portfolio. Built with React, TypeScript, and cutting-edge AI technologies.
+            © 2024 Shorya Kumar Mishra. Built with React, TypeScript, and cutting-edge AI technologies.
           </p>
         </div>
       </div>
