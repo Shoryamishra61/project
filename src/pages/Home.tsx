@@ -95,7 +95,6 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { icon: Award, label: 'GPA', value: '8.96', description: 'In B.Tech Computer Science at S.R.M Institute of Science and Technology' },
               { icon: Cpu, label: 'Cutting-Edge AI Projects', value: '3', description: 'Developed and deployed systems in healthcare, diagnostics, and medical analysis' },
               { icon: Trophy, label: 'Certified & Recognized', value: 'Multiple', description: 'Holding certifications from Google, Oracle, and Infosys, and a participant in the Smart India Hackathon' },
             ].map((stat, index) => (
