@@ -29,7 +29,7 @@ const CompetitiveProgrammingPage: React.FC = () => {
             className="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8 border border-cyan-500/20 flex flex-col items-center justify-center text-center"
           >
             <h3 className="text-3xl font-bold text-white mb-4">Overall Stats - Card 1</h3>
-            <img src="/certificates/profileCard.png" alt="Profile Card 1" className="w-full max-w-sm object-contain rounded-lg shadow-lg mb-6" />
+            <img src="/certificates/profilecard.png" alt="Profile Card 1" className="w-full max-w-sm object-contain rounded-lg shadow-lg mb-6" />
             <p className="text-gray-300 text-lg">This card visually represents an overview of my competitive programming journey.</p>
           </motion.div>
 
@@ -40,7 +40,7 @@ const CompetitiveProgrammingPage: React.FC = () => {
             className="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8 border border-purple-500/20 flex flex-col items-center justify-center text-center"
           >
             <h3 className="text-3xl font-bold text-white mb-4">Overall Stats - Card 2</h3>
-            <img src="/certificates/devCard (2).png" alt="Profile Card 2" className="w-full max-w-sm object-contain rounded-lg shadow-lg mb-6" />
+            <img src="/certificates/devcard-2.png" alt="Profile Card 2" className="w-full max-w-sm object-contain rounded-lg shadow-lg mb-6" />
             <p className="text-gray-300 text-lg">This card offers another perspective on my development and coding achievements.</p>
           </motion.div>
         </div>
