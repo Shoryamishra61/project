@@ -24,9 +24,9 @@ const Contact: React.FC = () => {
     setSubmitMessage('');
 
     // Replace with your actual EmailJS Service ID, Template ID, and Public Key
-    const SERVICE_ID = 'YOUR_SERVICE_ID';
-    const TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
-    const PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+    const SERVICE_ID = 'service_ckd38bv';
+    const TEMPLATE_ID = 'template_xbhn0qr';
+    const PUBLIC_KEY = 'kExqItkAoI2e3glIT';
 
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
       .then((result) => {
